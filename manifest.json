@@ -1,0 +1,15 @@
+{
+    "name": "Basic AdBlocker",
+    "version": "1.0",
+    "description": "AdBlocker for Facebook, AMP Hosts",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/16x16.png",
+        "48": "icons/48x48.png",
+        "128": "icons/128x128.png"
+    },
+    "manifest_version": 2
+}
